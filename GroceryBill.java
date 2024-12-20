@@ -9,8 +9,12 @@ public class GroceryBill{
         float pen = sc.nextFloat();
         float ereser = sc.nextFloat();
 
+        System.out.println("Cost of pencil is : " + pencil + " , Cost of Pen is : " + pen +" , and Cost of eraser is : " + ereser);
+
         float totalPrice = pencil + pen + ereser;
 
         System.out.println("Total Cost is " + totalPrice);
+
+        sc.close();
     }
 }
